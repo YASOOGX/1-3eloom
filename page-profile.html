@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/image/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  <title>3ELOOM/علوم</title>
+  <!-- <script src="assets/js/jquery-for-count.min.js"></script> -->
+  <!-- <script>
+    jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+      });
+    });
+  </script> -->
+</head>
+
+<body>
+  <div
+    class="loaderlodging bg-white position-fixed w-100 bg-white d-flex flex-column align-items-center justify-content-center overflow-hidden">
+    <img class="img-fluid img-lg-h150 mb-4" src="assets/image/logo.svg" alt="erorr">
+    <div class="d-flex justify-content-center text-center">
+      <span class="loader"></span>
+    </div>
+  </div>
+  <!-- start header  -->
+  <header>
+    <div class="head">
+      <div class="container">
+        <div class="row ">
+          <div class="col logo col-lg-1 col-md-6 col-sm-6 ">
+            <a href="index.html">
+              <img src="assets/image/logo.svg" alt="">
+            </a>
+          </div>
+          <div class=" col d-lg-none col-md-6 col-sm-6">
+            <button class="bars border-0 bg-transparent">
+              <i class=" fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <div class="phone  col-lg-11 col-md-12 col-sm-12  w-100  ">
+            <div class="phone-slide row ">
+              <div class="head-phone col-lg-12 d-flex align-items-center justify-content-between">
+                <div class="logo">
+                  <img src="assets/image/logo.svg" alt="">
+                </div>
+                <div>
+                  <button class="closes border-0 bg-transparent">
+                    <i class="fa-solid fa-close"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col list-links col-lg-7 ">
+                <ul>
+                  <li><a href="#">من نحن</a></li>
+                  <li><a href="#">معلمينا</a></li>
+                  <li><a href="#">المواد الدراسية</a></li>
+                  <li><a href="#">الأسعار</a></li>
+                  <li><a href="#">المدونة</a></li>
+                </ul>
+                <div class="col lang-btn  my-md-3 my-sm-3 dropdown d-lg-none">
+                  <a href="#" class="btn btn-outline-primary rounded-pill">
+                    دخول
+                  </a>
+                  <a href="#" class="btn btn-secondary rounded-pill">
+                    كن معلماً
+                  </a>
+                  <a href="#" class="btn btn-third rounded-pill">
+                    أبحث عن معلم
+                  </a>
+                  <button type="button" class=" border-0 bg-transparent dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>العربيه</p>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">EN</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col lang-btn col-lg-5 col-md-12 col-sm-12 my-md-3 my-sm-3 dropdown d-lg-flex d-md-none d-sm-none">
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  دخول
+                </a>
+                <a href="#" class="btn btn-secondary rounded-pill">
+                  كن معلماً
+                </a>
+                <a href="#" class="btn btn-third rounded-pill">
+                  أبحث عن معلم
+                </a>
+                <button class=" border-0 bg-transparent  ">
+                  <i class="fa-solid fa-search font-7 ml-4"></i>
+                </button>
+                <button type="button" class=" border-0 bg-transparent dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa-solid fa-globe"></i>
+                  <p>العربيه</p>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">EN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+  <!-- ///////////////////////////////////////////////// -->
+  <!-- start article -->
+  <section class="profile order" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+    <div class="container">
+      <div class="title justify-content-start my-5">
+        <h6><a href="index.html" class="text-dark ">الرئيسية</a> > <a href="single-services.html" class="text-dark">
+            الملف الشخصي</a></h6>
+      </div>
+      <div class="profile-content">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="info-profile">
+            <div>
+              <img src="assets/image/ico-profile.png" alt="">
+            </div>
+            <div class="text-info-profile">
+              <h5>محمود عرفه</h5>
+              <p><span class="text-primary mr-3"></span> marafa@email.com</p>
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-primary">
+              <i class="fa-solid fa-sign-out mr-2"></i> تسجيل خروج
+            </button>
+          </div>
+        </div>
+        <div class="profile-tab">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button"
+                role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-info-circle"></i>
+                معلوماتي</button>
+              <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
+                role="tab" aria-controls="nav-profile" aria-selected="false"><i
+                  class="fa-regular fa-user"></i>المدرسين</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <form action="">
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+                  <div class="col">
+                    <label for="com">الإسم</label>
+                    <input type="email" id="com" placeholder="محمود عرفه">
+                  </div>
+                  <div class="col">
+                    <label for="Email">البريد الإلكتروني</label>
+                    <input type="email" id="Email" placeholder="marafa@email.com">
+                  </div>
+                  <div class="col">
+                    <label for="phone">رقم الهاتف</label>
+                    <input type="text" id="phone" placeholder=" +971 4546 5344">
+                  </div>
+                  <div class="col">
+                  </div>
+                  <div class="col d-flex flex-row">
+                    <a href="login.html" class="btn btn-outline-primary rounded-pill w-50 mx-2 py-2">تعديل</a>
+                    <button class="btn btn-primary rounded-pill mx-2 w-50 py-2">حفظ</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="box-order tab-pane  fade py-4 shadow-none " style="border: none;" id="nav-profile"
+              role="tabpanel" aria-labelledby="nav-profile-tab">
+              <ul class="nav nav-tabs nav-2">
+                <h5>الماده:</h5>
+                <li ><a class="active" data-toggle="tab" href="#home">العلوم</a></li>
+                <li><a data-toggle="tab" href="#menu1">الرياضيات</a></li>
+                <li><a data-toggle="tab" href="#menu2">الكيمياء</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div id="home" class="tab-pane  active">
+                  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 ">
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-2.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-secondary">تواصل مع المدرس</button>
+                      </div>
+                    </div>
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-4.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-third"><i class="fa-regular fa-circle text-light "></i> جاري مراجعة الطلب</button>
+                      </div>
+                    </div>
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-2.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-dark"><img src="assets/image/check.svg" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                  <div class="row row-cols-lg-3">
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-2.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-secondary">تواصل مع المدرس</button>
+                      </div>
+                    </div>
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-2.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-dark"><img src="assets/image/check.svg" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                  <div class="row row-cols-lg-3">
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-2.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-secondary">تواصل مع المدرس</button>
+                      </div>
+                    </div>
+                    <div class=" col card">
+                      <div class="card-img-top">
+                        <img src="assets/image/tech-4.png" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h5>علي ال محسن</h5>
+                        <h6><i class="fa-solid fa-calendar-alt"></i><span class="text-secondary">تاريخ الطلب:</span> 12 اكتوبر 2024 ، 02:00م</h6>
+                        <button class="btn btn-third"><i class="fa-regular fa-circle text-light "></i> جاري مراجعة الطلب</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////////////////////// -->
+  <!-- start footer  -->
+  <footer data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+    <div class="container">
+      <div class="row  py-3">
+        <div class="col col-lg-3 col-md-6 col-sm-12 logo ">
+          <div><img src="assets/image/logo.svg" alt=""></div>
+          <div class="mt-4">
+            <p class="mb-4">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+              العربى،</p>
+          </div>
+          <ul class="d-flex flex-row">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <div class="col col-lg-2 col-md-6 col-sm-12 ">
+          <h2>روابط سريعة</h2>
+          <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">عنا</a></li>
+            <li><a href="#">الأخبار</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class=" col col-lg-3 col-md-6 col-sm-12 footer-new">
+          <h2>تواصل معنا</h2>
+          <ul>
+            <li><a href="#">
+                <i class="fa-regular fa-message text-primary mr-2 mb-10-px"></i>
+                <p>EI@domain.com</p>
+              </a></li>
+            <li><a href="#">
+                <i class="fa-solid fa-phone text-primary mr-2 mb-10-px"></i>
+                <p>xxxx xxxx xxxx</p>
+              </a></li>
+          </ul>
+        </div>
+        <div class=" col col-lg-4 col-md-6 col-sm-12 search">
+          <h2>البحث</h2>
+          <h5>احصل علي اخر العروض والنصائح</h5>
+          <div class="search-content">
+            <input type="search" name="" placeholder="ادخل بريدك الالكتروني" id="">
+            <button class="btn btn-primary rounded-pill px-4 py-2">
+              اشتراك
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="end-footer ">
+      <p><a class="text-dark d-block text-nowrap " href="https://www.elnooronline.net/" target="_blank">
+          تصميم وتنفيذ: <img class="elnoor img-fluid  ml-2" src="assets/image/elnooronline.svg" alt="">
+        </a></p>
+      <p> جميع الحقوق محفوظة © 2024 لموقع <span class="text-primary"> منصة علوم المستقبل</span> </p>
+    </div>
+  </footer>
+  <button class="end btn btn-primary rounded-50 position-fixed bottom-30px left-30px">
+    <i class="fa-solid fa-arrow-up font-5"></i>
+  </button>
+  <!-- end footer  -->
+  <!-- ////////////////////////////////////////// -->
+  <script src="assets/js/jquery-for-count.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1500
+      });
+    });
+  </script>
+  <script src="assets/js/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/autotyping.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/slick-animation.min.js"></script>
+  <script src="assets/js/@splidejs/splide.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
+
+  <!-- <script>
+         if (screen.width >= 768) {
+    const splide = new Splide('.splide', {
+      type: 'loop',
+      drag: 'free',
+      focus: 'center',
+      perPage: 4,
+      autoScroll: {
+        speed: 1,
+      },
+    });
+
+    splide.mount(window.splide.Extensions);
+  }
+    else if (screen.width <= 768) {
+    const splide = new Splide('.splide', {
+      type: 'loop',
+      drag: 'free',
+      focus: 'center',
+      perPage: 2,
+      autoScroll: {
+        speed: 1,
+      },
+    });
+
+    splide.mount(window.splide.Extensions);
+  }
+  </script> -->
+
+
+</body>
+
+</html>
