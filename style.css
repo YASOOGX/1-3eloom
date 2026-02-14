@@ -2526,7 +2526,85 @@ footer .elnoor {
   width: 40px;
 }
 /* end footer  */
+/* start modal  */
 
+.modal {
+  border-radius: 15px;
+}
+.modal form .row{
+display: flex;
+justify-content: flex-start;
+}
+.modal .modal-body{
+  padding: 0px;
+}
+.modal-dialog{
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content{
+  width: 50%;
+  border:  solid 2px var(--prime);
+}
+.modal-content form{
+  padding: 30px 15px;
+}
+.modal-content form h2{
+  color: var(--prime);
+}
+.contact-us-main form {
+
+  border-radius: 5px;
+  position: relative;
+  padding-left: 15px;
+}
+/* .contact-us-main form::after {
+  content: "";
+  position: absolute;
+  left: 12.5%;
+  top: 0px;
+  background-color: var(--prime);
+  width: 75%;
+  height: 5px;
+  z-index: 1;
+  animation: form 2s linear infinite;
+}
+@keyframes form {
+  0% {
+  }
+  50% {
+    width: 100%;
+    left: 0%;
+  }
+  100% {
+  }
+} */
+
+.contact-us-main form .row {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-us-main form input,
+.contact-us-main form textarea,
+.contact-us-main form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(248, 248, 248, 0.801);
+  border: none;
+  margin: 10px 0px;
+  border: solid 1px rgb(202, 200, 200);
+}
+.contact-us-main form input[type="submit"] {
+  background-color: var(--third);
+}
+.contact-us-main .bg-bottom {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
 /*--------- Responsive ----- */
 @media (min-width: 992px) {
   header .head-phone {
@@ -2840,6 +2918,9 @@ footer .elnoor {
   }
   .contact-us form h4{
     width: 40%;
+  }
+  .modal-content{
+    width:95%;
   }
 }
 @media (max-width: 500px) {
